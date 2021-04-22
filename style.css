@@ -1,0 +1,115 @@
+body {
+    /* background-color: rgb(206, 208, 211); */
+    background-image: url('thumb-1920-1023058.jpg');
+    background-repeat: unset;
+}
+
+
+#main{
+    position: relative;
+    width: 30%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    text-align: center;
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+.form-control{
+    height: 50px;
+    margin: 15px 0;
+   
+}
+.form-control:hover {
+    transform: perspective(1.1);
+    cursor: pointer;
+}
+
+
+.chBox{
+    margin-bottom: 20px;
+}
+.btn{
+    margin-bottom: 20px;
+   
+}
+#btnStyle{
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 0;
+    background-color: lightskyblue;
+    border: initial;
+    outline: 0;
+}
+#btnStyle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#firstName{
+    display: none;
+    color: crimson;
+    font-weight: bold;
+}
+#lasstName{
+    display: none;
+    color: crimson;
+    font-weight: bold;
+}
+#passwordId{
+    display: none;
+    color: crimson;
+    font-weight: bold;
+}
+#passwordDere{
+    display: none;
+    color: crimson;
+    font-weight: bold;
+}
+
+#greatMain{
+    display: none;
+    margin-left: 510px;
+    margin-top: -490px;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 25px;
+    overflow: hidden;
+}
+#upperPart{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(21, 148, 84);
+   
+    display: flex;
+    justify-content: center;
+}
+
+#underPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btnBreack{
+    border-radius: 10px;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(160, 160, 20);
+    outline: 0;
+    border: initial;
+    color: white;
+}
+#btnBreack:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
